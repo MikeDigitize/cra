@@ -1,4 +1,3 @@
-import { experiments } from 'webpack';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
@@ -10,4 +9,4 @@ describe('Hello component test suite', function() {
         const hello = screen.getByText(/Hello World/i);
         expect(hello).toBeInTheDocument();
     });
-})
+});
