@@ -3,7 +3,7 @@
 React, Jest, Babel and Webpack dev server.
 All set up and ready to go...  
 
-Fork or create empty repo on Github
+Fork or create empty repo on Github and...
 
 ```
 git clone https://github.com/MikeDigitize/cra new-repo-name
