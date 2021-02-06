@@ -1,8 +1,5 @@
 # My Create React App
 
-React
-Jest
-Babel
-Webpack dev server
+React, Jest, Babel and Webpack dev server.
 
-All set up and ready to go
+All set up and ready to go...
