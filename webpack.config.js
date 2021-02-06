@@ -5,7 +5,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000,
+    port: 8888,
   },
   devtool: 'source-map',
   module: {
@@ -14,10 +14,7 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-react'],
-          },
+          loader: 'babel-loader'
         },
       },
     ]
@@ -25,6 +22,9 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     template: 'src/index.html'
   })],
+  resolve: {
+    extensions: ['.js', '.json', '.jsx'],
+  },
 }
 
 
