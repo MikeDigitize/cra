@@ -8,8 +8,9 @@ Fork or create empty repo on Github and...
 ```
 git clone https://github.com/MikeDigitize/cra new-repo-name
 cd new-repo-name
-git remote set-url origin https://github.com/Username/new-repo-name
-git remote add upstream https://github.com/Username/new-repo-name
+// change my username to yours in URL below as you run these commands
+git remote set-url origin https://github.com/MikeDigitize/new-repo-name
+git remote add upstream https://github.com/MikeDigitize/new-repo-name
 git push origin master
 
 yarn install
