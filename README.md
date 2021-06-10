@@ -13,7 +13,16 @@ git remote set-url origin https://github.com/MikeDigitize/new-repo-name
 git remote add upstream https://github.com/MikeDigitize/new-repo-name
 git push origin master
 
+// show outdated dependencies
+yarn outdated
+
+// update all dependencies to latest (optional)
+yarn upgrade
+
+// install dependencies
 yarn install
+
+// let the fun begin
 yarn start
 yarn test
 ```
